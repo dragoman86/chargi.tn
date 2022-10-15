@@ -1,0 +1,154 @@
+
+.navbar-brand{
+    font-family: 'Comforter Brush', cursive;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler{
+    font-family: 'Roboto Slab', serif;
+}
+
+.image-responsives{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:2rem;
+    width: 80%;
+    margin:auto;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.carousel-inner{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.carousel-item{
+    height: 32rem;
+    background: red;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.items-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+    width: 75%;
+    margin:auto;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.items-list > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+
+  .items-list .card-img-top{
+    height: 20rem;
+  }
+
+
+.shop-card{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+  margin-top: 75px; 
+}
+
+.cart-item, .card-head{
+  margin: 1rem;
+  align-items: center;
+}
+
+.cart-item input{
+  height: 2rem;
+}
+
+.cart-item img{
+  height:8rem;
+  width: 6rem;
+}
+
+.cart-item input{
+  width: 5rem;
+}
+
+.btn-buy{
+  width: 7rem;
+}
+
+.total, span{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.favorites{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+  margin-top: 75px;
+  
+}
+
+.fav-item{
+  margin: 1rem
+}
+
+.contact{
+    font-family: 'Cairo', sans-serif;
+    width: 70%;
+    margin: auto;
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+
+.icon-footer{
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center; 
+}
+
+.footer-rub a{
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+}
+
+p{
+  font-family: 'Cairo', sans-serif;
+}
+
+h3{
+  font-family: 'Cairo', sans-serif;
+}
+
+.bloc-pub{
+  width: 85%;
+  margin: auto;
+  align-items: center;
+} 
+
+.bloc-pub img{
+  margin: 2rem;
+  width: 10rem;
+}
